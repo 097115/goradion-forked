@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	defaultVolume = 80
+	defaultVolume = 50
 	buffering     = "Buffering..."
 	stopped       = "Stopped"
 	playing       = "Playing"
