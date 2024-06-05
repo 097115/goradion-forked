@@ -57,7 +57,7 @@ func (p *Player) Start() {
 	p.Lock()
 	p.cmd = exec.Command(
 		"mpv",
-		"-no-video",
+		"--audio-display=no",
 		"--idle",
 		"--display-tags=Artist,Title,icy-title",
 		"--network-timeout=10",
